@@ -16,8 +16,8 @@ public enum EnumFrom {
     DE(2, "de"),
     PT(3, "pt");
 
-    private int index;
-    private String value;
+    private final int index;
+    private final String value;
 
     EnumFrom(int index, String value) {
         this.index = index;
